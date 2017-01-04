@@ -1,0 +1,51 @@
+html{
+    background-color: #ffffff;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif; color: "black";}
+
+.w3-sidenav a {padding:20px}
+
+.wrapper {
+    border:1px solid #000;
+    display:inline-block;
+}
+
+input,
+button {
+    background-color:transparent;
+    border:0;
+}
+
+
+
+
+
+.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:transparent;
+}
+.pop-up {
+    
+    background: rgba(255, 255, 255, 0.83);
+    text-align: center;
+    border:1px solid black;
+    box-shadow: 1px 1px 39px 5px #584B4B;
+    width: 200px;
+    position: relative;
+    margin: 100px auto 0 auto;
+    z-index: 3;
+}
+}
+.nope{
+  text-decoration:underline;
+  cursor:pointer;
+  font-size:13px;
+}
+.pop-up{
+  display:none;
+}
